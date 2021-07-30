@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaFitness</title>
+    <link rel="icon" href="/images/rA.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./offers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/33e495fb35.js" crossorigin="anonymous"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light "style="background-color: white;">
+        <img class="im" src="/images/rA.png"/>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/Home.html">Home </a>
+            <a class="nav-item nav-link" href="/different.html">Why we are different </a>
+            <a class="nav-item nav-link" href="/team.html">Meet the team</a>
+            <a class="nav-item nav-link active" href="/offers.html">Membership options <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/contact.html">Contact </a>
+          </div>
+        </div>
+      </nav>
+
+   <div class="container">
+    <br><br>
+    <div class="">
+        <h1 class="color">TEAM TRAINING</h1>
+        <br>
+        <p class="text2">A unique blend of resistance based exercises and HIIT style cardio. <br> Specifically designed to help you lose weight, gain strength and tighten and tone those muscles.<br>  Using science based programming we have made movement patterns and mobility our top priority.<br>  These workouts will leave you feeling and moving better all while getting the results you are looking for.</p>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-4 coll">
+            <div class="card border-info mb-3 cardd" style="max-width: 18rem;">
+                <div class="card-header back ">ONCE A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 100 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="#Register"> <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4 ">
+            <div class="card border-info mb-3 cardd" style="max-width: 18rem;">
+                <div class="card-header back ">TWICE A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 180 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="#Register"> <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-4 coll">
+            <div class="card border-info mb-3 cardd" style="max-width: 18rem;">
+                <div class="card-header back ">THREE TIMES A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 250 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="#Register"> <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+   </div>
+    
+
+
+   <div class="container">
+    <br><br>
+    <div class="">
+        <h1 class="color">1 ON 1 PRIVATE TRAINING </h1>
+        <br>
+        <p class="text2">In your 1-1 private training you will be working directly with a RaFitness professional. 
+        </p>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-4 coll">
+            <div class="card border-info mb-3 cardd" style="max-width: 18rem;">
+                <div class="card-header back ">ONCE A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 200 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="#Register">   <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4 ">
+            <div class="card border-info mb-3  cardd" style="max-width: 18rem;">
+                <div class="card-header back ">TWICE A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 350 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                
+                <div class="center">
+                    <a href="#Register">  <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-4 coll">
+            <div class="card border-info mb-3  cardd" style="max-width: 18rem;">
+                <div class="card-header back ">THREE TIMES A WEEK <BR>FOR 12 WEEKS</div>
+                <div class="card-body text-info">
+                  <h5 class="card-title" style="text-align: center;">TND 500 / Per month</h5>
+                  <div class="row">
+                      <div class="col-2">
+                          <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                      </div>
+                      <div class="col-10">
+                          <p class="text">Customized personal training</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">12 week nutritional plan</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text"> At home workouts</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">  Monthly progress report</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Individual menu planning</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Weekly accountability check-ins</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Fat burning intervals</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Sample menu plans</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   Food journal checklists</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">    SUPPORT</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imm"src="https://image.flaticon.com/icons/png/512/63/63144.png">
+                    </div>
+                    <div class="col-10">
+                        <p class="text">   100% GUARANTEED results!</p>
+                    </div>
+                </div>
+                <div class="center">
+                    <a href="#Register"> <button type="button" class="btn btn-outline-info" >Sign up now</button></a>
+                </div>
+                </div>
+              </div>
+        </div>
+    </div>
+   </div>
+   <a name="Register"></a> <div class="container-fluid con center">
+    <br><br><br>
+         <h1 class="color">Register Today ! </h1>
+        <br>
+        <p class="text2">We will get in contact with you to start your plan as soon as we can.</p>
+         <div class="container">   
+    <form class="form-horizontal " role="form">
+        <div class="form-group ">
+            <label for="firstName" class="col-sm-3 control-label">First Name<span class="text-danger"> *</span></label>
+            <div class="col-sm-9  mar">
+                <input type="text" onblur="validate(1)" id="firstName" placeholder="First Name" class="form-control "  required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastName" class="col-sm-3 control-label">Last Name Height<span class="text-danger"> *</span></label>
+            <div class="col-sm-9 mar">
+                <input type="text" onblur="validate(2)" id="lastName" placeholder="Last Name" class="form-control" required >
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email<span class="text-danger"> *</span> </label>
+            <div class="col-sm-9 mar">
+                <input type="email" id="email" onblur="validate(3)" placeholder="Email" class="form-control" name= "email" required>
+            </div>
+        </div>
+       
+        <div class="form-group">
+            <label for="birthDate" class="col-sm-3 control-label">Date of Birth<span class="text-danger"> *</span></label>
+            <div class="col-sm-9 mar">
+                <input type="date" id="birthDate" class="form-control" onblur="validate(4)" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber" class="col-sm-3 control-label">Phone number Height<span class="text-danger"> *</span></label>
+            <div class="col-sm-9 mar">
+                <input type="phoneNumber" id="phoneNumber" onblur="validate(5)" placeholder="Phone number" class="form-control" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber" class="col-sm-3 control-label">Membership type<span class="text-danger"> *</span> </label>
+            <div class="col-sm-9 mar">
+                <select name="Membership type" id="MembershipType" onblur="validate(6)" class="form-control" required>
+                    <option value="1 ON 1 once a week">1 ON 1 once a week</option>
+                    <option value="1 ON 1 twice a week">1 ON 1 twice a week</option>
+                    <option value="1 ON 1 three times a week">1 ON 1 three times a week</option>
+                    <option value="TEAM TRAINING once a week">TEAM TRAINING once a week</option>
+                    <option value="TEAM TRAINING twice a week">TEAM TRAINING twice a week</option>
+                    <option value="TEAM TRAINING three times a week">TEAM TRAINING three times a week</option>
+                 </select>
+                  
+            </div>
+        </div>
+        <div class="form-group">
+                <label for="Height" class="col-sm-3 control-label">Height<span class="text-danger"> *</span> </label>
+            <div class="col-sm-9 mar">
+                <input type="number" id="height" onblur="validate(7)" placeholder="Please write your height in centimetres" class="form-control " required>
+            </div>
+        </div>
+         <div class="form-group">
+                <label for="weight" class="col-sm-3 control-label">Weight<span class="text-danger"> *</span></label>
+            <div class="col-sm-9 mar">
+                <input type="number" id="weight" onblur="validate(8)" placeholder="Please write your weight in kilograms" class="form-control" required>
+            </div>
+        </div>
+      
+      <button type="button" class="btn btn-outline-info" onclick="writeData()">Start Now</button>
+      
+    </form> <!-- /form -->
+    <br>  <br>
+</div>
+</div> <!-- ./container -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+       
+      </section>
+    
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" >Ranim Amor</a>
+    </div>
+    
+  </footer>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+
+
+<script src="/offers.js"></script>
+
+</body>
+</html>

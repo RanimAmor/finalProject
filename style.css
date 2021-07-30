@@ -1,0 +1,143 @@
+.im{
+    width:170px;
+    height:120px;
+}
+
+.back{
+    background-image: url(/images/hiit3.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Uchen&display=swap');
+.title1{
+text-align: center;
+color: rgb(3, 3, 37);
+font-family: 'Uchen', serif;
+font-stretch:extra-expanded;
+font-weight: bold;
+}
+.title{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(3, 3, 37);
+}
+
+.cont{
+    background-color: white;
+    text-align: center;
+    height: 150px;
+    color:#5dcad1
+}
+
+.a-box {
+    display: inline-block;
+    width: 240px;
+    text-align: center;
+  }
+  
+  .img-container {
+      height: 230px;
+      width: 200px;
+      overflow: hidden;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+  }
+  
+  .img-container img {
+      transform: skew(0deg, -13deg);
+      height: 250px;
+      margin: -35px 0px 0px -70px;
+  }
+  
+  .inner-skew {
+      display: inline-block;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 0px;
+      transform: skew(0deg, 13deg);
+      font-size: 0px;
+      margin: 30px 0px 0px 0px;
+      background: #c8c2c2;
+      height: 250px;
+      width: 200px;
+  }
+  
+  .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  
+  .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #5dcad1;
+    font-size: 18px;
+  }
+
+  .center{
+      text-align: center;
+  }
+.imgg{
+    width: 270px;
+    height: 100px;
+}
+.contt{
+    text-align: center;
+    height: 400px;
+}
+.title2{
+    text-align: center;
+    color: #7a7a7a;
+    font-family: 'Uchen', serif;
+    font-stretch:extra-expanded;
+    font-weight: bold;
+    }
+   .color{
+        color:#5dcad1;
+        
+    }
+
+.ff{
+    text-align: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(/images/le-cours-collectif-a-salle-de-sport-freeness-photo-l-alsace-darek-szuster-1579887059.jpg);
+}
+
+.imm{
+    width: 40px;
+    height:40px;
+}
+
+
+.animationBox5{
+    position: relative;
+    animation-name: animationFn;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+.animationBox3{
+    position: relative;
+    animation-name: animationFn;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    
+ 
+}
+.animationBox4{
+    position: relative;
+    animation-name: animationFn;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+@keyframes animationFn {
+    0%   { left:0; top:200px;}
+    25%  { left:0px; top:0px;}
+  
+  }
